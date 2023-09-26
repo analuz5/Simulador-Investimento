@@ -1,8 +1,0 @@
-body{
-    background: linear-gradient(to bottom, rgb(#33312e) ,rgb(#000000));
-    margin: 0;
-    padding: 0;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-}
