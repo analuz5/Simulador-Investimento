@@ -5,38 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juros</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> <!-- Importação do arquivo de estilos CSS -->
 </head>
 <body>
     <header id="menu">
         <ul>
-            <img class="logo" src="logo.png" alt="Logo da empresa J A Luz">
-            <li><a href="#">Inicío</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Sobre</a></li>
+            <img class="logo" src="logo.png" alt="Logo da empresa J A Luz" id="logo"><!-- Logo da empresa -->
+            <li><a href="#">Inicío</a></li><!-- Item de menu: Início -->
+            <li><a href="#">Contato</a></li><!-- Item de menu: Contato -->
+            <li><a href="#">Sobre</a></li> <!-- Item de menu: Sobre -->
         </ul>
     </header>
-    
-
-    
-
-    <form id="meuFormulario">
-        <h1>Simulador de Investimentos Financeiros</h1>
-        <label>Capital Inicial:</label>
+        <form id="meuFormulario"> <!-- Formulário de simulação de investimentos -->
+        <h1>Simulador de Investimentos Financeiros💰</h1><!-- Título do formulário -->
+        <label>Capital Inicial:</label><!-- Campo para inserir o capital inicial -->
         <input type="number" id="capitalInicial" required placeholder="Insira o valor investido">
-        <label>Tempo de Investimentos:</label>
+        <label>Tempo de Investimentos:</label><!-- Campo para inserir o tempo de investimento -->
         <input type="number" id="tempo" required placeholder="Insira o tempo do investimento">
-        <label>Selecione o período</label>
+        <label>Selecione o período:</label><!-- Opção padrão do select -->
         <select id="periodo">
             <option value="" selected disabled>Selecione...</option>
-            <option value="m">Mês</option>
-            <option value="a">Ano</option>
+            <option value="m">Mês</option><!-- Opção: Mês -->
+            <option value="a">Ano</option> <!-- Opção: Ano -->
         </select>
             <label>Juros:</label>
-        <input type="number" id="juros" required placeholder="Em porcentagem. Ex:10%">
-        <button class="button"type="submit" id="calcular">Calcular</button>
-        <p id="resultado"></p>
+        <input type="number" id="juros" required placeholder="Em porcentagem. Ex:10%"><!-- Campo para inserir a taxa de juros -->
+        <button class="button"type="submit" id="calcular">Mágica ✨</button><!-- Botão para calcular -->
+        <p id="resultado"></p><!-- Exibição do resultado do cálculo -->
     </form>
-    <p><script src="js/script.js"></script></p>
+    <p><script src="js/script.js"></script></p><!-- Inclusão do script JS -->
 </body>
 </html>

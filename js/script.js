@@ -14,5 +14,5 @@ document.getElementById('meuFormulario').addEventListener('submit', function(eve
     }
 
     const resultadoCalculado = capital * Math.pow(1 + juros, i);
-    document.getElementById('resultado').textContent = `O valor com juros compostos é: ${resultadoCalculado.toFixed(2)}`;
+    document.getElementById('resultado').textContent = `O valor final com juros compostos é: ${resultadoCalculado.toFixed(2)}`;
   });
