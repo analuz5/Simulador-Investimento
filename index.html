@@ -10,13 +10,13 @@
 <body>
     <header id="menu">
         <ul>
-            <img class="logo" src="logo.png" alt="Logo da empresa J A Luz" id="logo"><!-- Logo da empresa -->
             <li><a href="#">Inicío</a></li><!-- Item de menu: Início -->
             <li><a href="#">Contato</a></li><!-- Item de menu: Contato -->
             <li><a href="#">Sobre</a></li> <!-- Item de menu: Sobre -->
         </ul>
     </header>
-        <form id="meuFormulario"> <!-- Formulário de simulação de investimentos -->
+            <img class="logo" src="logo.png" alt="Logo da empresa J A Luz" id="logo"><!-- Logo da empresa -->
+    <form id="meuFormulario"> <!-- Formulário de simulação de investimentos -->
         <h1>Simulador de Investimentos Financeiros💰</h1><!-- Título do formulário -->
         <label>Capital Inicial:</label><!-- Campo para inserir o capital inicial -->
         <input type="number" id="capitalInicial" required placeholder="Insira o valor investido">
@@ -31,8 +31,27 @@
             <label>Juros:</label>
         <input type="number" id="juros" required placeholder="Em porcentagem. Ex:10%"><!-- Campo para inserir a taxa de juros -->
         <button class="button"type="submit" id="calcular">Mágica ✨</button><!-- Botão para calcular -->
+
+        
         <p id="resultado"></p><!-- Exibição do resultado do cálculo -->
     </form>
+    <form2>
+        <h2>Feedback</h2>
+    <p>Essa calculadora foi útil para você?</p><!-- Pergunta sobre a utilidade da calculadora -->
+    <label for="sim">
+        <input type="radio" id="sim" name="feedback" value="sim"><!-- Opção "Sim" -->
+        Sim
+    </label>
+    <label for="nao">
+        <input type="radio" id="nao" name="feedback" value="nao"><!-- Opção "Não" -->
+        Não
+    </label>
+        <form3>
+            <label2 for="data">Coloque a data presente:</label2>
+            <input type="date" id="data" name="data" placeholder="Coloque a data de hoje">
+        </form3>
+        <button class="button" type="submit" id="enviar">Enviar</button>
+    </form2>
     <p><script src="js/script.js"></script></p><!-- Inclusão do script JS -->
 </body>
 </html>

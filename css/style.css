@@ -25,8 +25,10 @@ header {/* Formatação do menu */
 
 
 #logo { /* Formatação da logo */
-  width: 150px; /* Largura do logotipo */
-  margin-right: 20px; /* Margem à direita */
+  width: 180px; /* Largura do logotipo */
+  margin-top:-0.3cm;/*Margem*/
+  align-self: center;/* Alinhamento próprio ao centro */
+  position:absolute; /* Posição absoluta */
 }
 
 
@@ -75,6 +77,19 @@ form {/* Formatação do formulário */
   flex-direction: column; /* Direção da disposição dos elementos */
 }
 
+form2{ /* Formatação do segundo formulário */
+  font-family: "Inter", sans-serif; /* Fonte */
+  width: 25%; /* Largura */
+  margin: 20px auto 0; /* Margem para o alinhamento central e margem superior */
+  padding: 0.5%; /* Espaçamento interno */
+  background-color: rgb(1, 14, 27); /* Cor de fundo */
+  border-radius: 16px; /* Bordas arredondadas */
+  box-shadow: 0 0 16px rgb(42, 71, 116); /* Sombra */
+  text-align: center; /* Alinhamento do texto */
+  color: rgb(255, 255, 255); /* Cor do texto */
+  display:flex; /* Alinhamento */
+  flex-direction:inherit; /* Direção da disposição dos elementos */
+}
 
 label {/* Estilos para as etiquetas (labels) */
   display: block; /* Exibição em bloco */
@@ -82,7 +97,12 @@ label {/* Estilos para as etiquetas (labels) */
   margin-bottom: 10px; /* Margem inferior */
   margin-top: 10px; /* Margem superior */
 }
-
+label2 {/* Estilos para as etiquetas (labels) */
+  display: block; /* Exibição em bloco */
+  border-radius: 8px; /* Bordas arredondadas */
+  margin-bottom: 10px; /* Margem inferior */
+  margin-top: 10px; /* Margem superior */
+}
 /* Estilos para o botão */
 button {
   background-color: rgb(42, 71, 116); /* Cor de fundo do botão */
@@ -107,6 +127,11 @@ input {
   width: 100%; /* Largura total */
   padding: 8px; /* Espaçamento interno */
 }
+#data {
+  border-radius: 4px; /* Bordas arredondadas */
+  width: 25%; /* Largura total */
+  padding: 8px; /* Espaçamento interno */
+}
 
 /* Estilos para os menus de seleção */
 select {
@@ -120,7 +145,7 @@ select {
 
 /* Estilos para o menu fixo no topo */
 #menu {
-  position: fixed; /* Posição fixa */
+  position:absolute; /* Posição absoluta */
   top: 1px; /* Distância do topo */
   left: 0; /* Distância da esquerda */
   width: 100%; /* Largura total */
