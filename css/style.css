@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-
-
 body { /* Formatação do corpo do site */
   font-family: "Mooli", "Inter", sans-serif; /* Fontes utilizadas naa importação*/
   background: linear-gradient(to bottom, rgb(42, 71, 116), rgb(1, 14, 27)); /* Gradiente de fundo */
@@ -14,8 +12,6 @@ body { /* Formatação do corpo do site */
   display: flex; /* Alinhamento */
   flex-direction: column; /* Direção da disposição dos elementos */
 }
-
-
 header {/* Formatação do menu */
   align-items: center; /* Alinha os itens ao centro */
   display: flex; /* Alinhamento */
@@ -23,22 +19,16 @@ header {/* Formatação do menu */
   padding: 10px 0px; /* Espaçamento interno */
   background-color: rgb(1, 14, 27); /* Cor de fundo do menu */
 }
-
-
 #logo { /* Formatação da logo */
   width: 180px; /* Largura do logotipo */
   margin-top:-0.3cm;/*Margem*/
   align-self: center;/* Alinhamento próprio ao centro */
   position:absolute; /* Posição absoluta */
 }
-
-
 a {/* Estilos para os links */
   color: rgb(255, 255, 255); /* Cor dos links */
   margin: 0 10px; /* Espaçamento dos links */
 }
-
-
 ul {/* Estilos para a lista de itens de navegação */
   list-style: none; /* Remove os marcadores de lista */
   display: flex; /* Alinhamento */
@@ -47,13 +37,9 @@ ul {/* Estilos para a lista de itens de navegação */
   align-items: center; /* Alinha os itens ao centro */
   flex-direction: row; /* Direção da disposição dos elementos */
 }
-
-
 li { /* Estilos para os itens de navegação */
   margin-right: 70px; /* Margem à direita para os itens */
 }
-
-
 h1 {/* Formatação do título */
   color: rgba(255, 255, 255,0.9); /* Cor do título */
   text-align: center; /* Alinhamento do texto */
@@ -61,8 +47,6 @@ h1 {/* Formatação do título */
   text-shadow: 2px 2px 4px rgba(1, 14, 27, 0.5); /* Sombra do texto */
   border-radius: 8px; /* Bordas arredondadas */
 }
-
-
 form {/* Formatação do formulário */
   font-family: "Inter", sans-serif; /* Fonte */
   width: 25%; /* Largura */
@@ -77,7 +61,6 @@ form {/* Formatação do formulário */
   display: flex; /* Alinhamento */
   flex-direction: column; /* Direção da disposição dos elementos */
 }
-
 form2{ /* Formatação do segundo formulário */
   font-family: "Inter", sans-serif; /* Fonte */
   width: 25%; /* Largura */
@@ -91,21 +74,19 @@ form2{ /* Formatação do segundo formulário */
   display:flex; /* Alinhamento */
   flex-direction:inherit; /* Direção da disposição dos elementos */
 }
-
-label {/* Estilos para as etiquetas (labels) */
+label {/* Estilos para primeiro formulário */
   display: block; /* Exibição em bloco */
   border-radius: 8px; /* Bordas arredondadas */
   margin-bottom: 10px; /* Margem inferior */
   margin-top: 10px; /* Margem superior */
 }
-label2 {/* Estilos para as etiquetas (labels) */
+label2 {/* Estilos para segundo formulário */
   display: block; /* Exibição em bloco */
   border-radius: 8px; /* Bordas arredondadas */
   margin-bottom: 10px; /* Margem inferior */
   margin-top: 10px; /* Margem superior */
 }
-/* Estilos para o botão */
-button {
+button {/* Estilos para o botão */
   background-color: rgb(42, 71, 116); /* Cor de fundo do botão */
   color: #fff; /* Cor do texto */
   padding: 12px 25px; /* Espaçamento interno */
@@ -115,27 +96,21 @@ button {
   margin-top: 10%; /* Margem superior */
   align-self: center; /* Alinhamento próprio ao centro */
 }
-
-/* Estilos para o botão ao passar o mouse */
-button:hover {
+button:hover {/* Estilos para o botão ao passar o mouse */
   background-color: rgb(1, 14, 27); /* Cor de fundo ao passar o mouse */
   color: rgb(255, 255, 255); /* Cor do texto ao passar o mouse */
 }
-
-/* Estilos para os campos de entrada de texto */
-input {
+input {/* Estilos para os campos de entrada de texto */
   border-radius: 4px; /* Bordas arredondadas */
   width: 100%; /* Largura total */
   padding: 8px; /* Espaçamento interno */
 }
-#data {
+#data {/* Estilos para o campo data */
   border-radius: 4px; /* Bordas arredondadas */
   width: 25%; /* Largura total */
   padding: 8px; /* Espaçamento interno */
 }
-
-/* Estilos para os menus de seleção */
-select {
+select {/* Estilos para os menus de seleção */
   width: 104%; /* Largura um pouco maior para compensar o padding */
   padding: 8px; /* Espaçamento interno */
   margin-bottom: 10px; /* Margem inferior */
@@ -143,9 +118,7 @@ select {
   border-radius: 4px; /* Bordas arredondadas */
   margin-top: 10px; /* Margem superior */
 }
-
-/* Estilos para o menu fixo no topo */
-#menu {
+#menu {/* Estilos para o menu no topo */
   position:absolute; /* Posição absoluta */
   top: 1px; /* Distância do topo */
   left: 0; /* Distância da esquerda */
