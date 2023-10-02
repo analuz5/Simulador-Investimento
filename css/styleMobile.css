@@ -45,33 +45,33 @@
         margin-top: 10px; /* Margem superior */
       }
       /* Estilos para os campos de entrada de texto */
-input {
+    input {
     border-radius: 4px; /* Bordas arredondadas */
     width: 95%; /* Largura total */
     padding: 8px; /* Espaçamento interno */
-  }
-    button {
-      margin-top: 20px; /* Ajustando a margem superior do botão para dispositivos móveis */
     }
-  }
-  a {/* Estilos para os links */
-    color: rgb(255, 255, 255); /* Cor dos links */
-    margin: 0 6px; /* Espaçamento dos links */
-  }
-  li { /* Estilos para os itens de navegação */
-    margin-top: 20%;
-  }
-  
-  ul {/* Estilos para a lista de itens de navegação */
-    list-style: none; /* Remove os marcadores de lista */
-    display: flex; /* Alinhamento */
-    height: 100%; /* Altura*/
-    margin: 0; /* Margem*/
-    align-items: center; /* Alinha os itens ao centro */
-    flex-direction: row; /* Direção da disposição dos elementos */
-  }
-  #data {
-    border-radius: 4px; /* Bordas arredondadas */
-    width: 40%; /* Largura total */
-    padding: 8px; /* Espaçamento interno */
-  }
+        button {
+        margin-top: 20px; /* Ajustando a margem superior do botão para dispositivos móveis */
+        }
+    a {/* Estilos para os links */
+        color: rgb(255, 255, 255); /* Cor dos links */
+        margin: 0 6px; /* Espaçamento dos links */
+    }
+    li { /* Estilos para os itens de navegação */
+        margin-top: 20%;
+    }
+    
+    ul {/* Estilos para a lista de itens de navegação */
+        list-style: none; /* Remove os marcadores de lista */
+        display: flex; /* Alinhamento */
+        height: 100%; /* Altura*/
+        margin: 0; /* Margem*/
+        align-items: center; /* Alinha os itens ao centro */
+        flex-direction: row; /* Direção da disposição dos elementos */
+    }
+    #data {
+        border-radius: 4px; /* Bordas arredondadas */
+        width: 40%; /* Largura total */
+        padding: 8px; /* Espaçamento interno */
+    }
+}
